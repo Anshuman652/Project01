@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#preloader {
+    background: #fff url(images/nd.jpg) no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: 1.5s ease;
+}
+
+.header .info {
+    border: 0px solid white;
+    background-image: linear-gradient(#f24949, #f58282);
+    height: 40px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: #f24949 4px 2px 7px 2px;
+    font-size: 17px;
+}
+
+.slide-show {
+    margin: 5px 0 0 0;
+}
+
+.datax {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img_sec {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.img_sec img {
+    border-radius: 300px;
+    box-shadow: #f24949 3px 10px 0px 0px;
+    height: 300px;
+    text-align: center;
+}
+
+.txt_sec h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt_sec p {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #575958;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.viw {
+    border: 1px solid #f24949;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f24949;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.6s;
+}
+
+.viw:hover {
+    background-color: #d4a017;
+    border-color: #d4a017;
+}
