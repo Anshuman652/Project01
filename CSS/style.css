@@ -42,19 +42,18 @@
 .datax {
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .img_sec {
     margin-bottom: 20px;
-    text-align: center;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
 .img_sec img {
     border-radius: 300px;
     box-shadow: #f24949 3px 10px 0px 0px;
     height: 300px;
-    text-align: center;
 }
 
 .txt_sec h1 {
@@ -89,4 +88,79 @@
 .viw:hover {
     background-color: #d4a017;
     border-color: #d4a017;
+}
+.mav{
+    background-image: url("/images/cover.jpg");
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cover{
+    background-color: #0009;
+    height: 100%;
+    color: #fff;
+}
+.feature{
+    border: 0px solid black;
+    margin-bottom: 40px;
+    border-radius: 100px;
+    box-shadow: #f24949 2px 3px 0 0;
+    background-color: #ebebeb;
+}
+.feature .col2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.54s;
+}
+.feature .fmb{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    color: #575958;
+}
+.feature .col2:hover{
+    background-color: #d4a017;
+}
+.feature .fr:hover{
+    background-color: #d4a017;
+    border-radius: 100px 0 0 100px;
+}
+.feature .lr:hover{
+    background-color: #d4a017;
+    border-radius: 0 100px 100px 0;
+}
+.col6{
+    text-align: right;
+}
+.about-data{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.bg-fix{
+    border: 10px solid #ebebeb;
+    background-color: #fff;
+    overflow: hidden;
+    width: 80px;
+    border-radius: 100px;
+}
+.bt-fix{
+    color: black;
+}
+.bt-fix:hover{
+    color: #000;
+}
+.upper-pad{
+    padding-top: 30px;
+}
+.lower-pad{
+    padding-bottom: 30px;
+}
+.read-bt{
+    text-decoration: none;
+    color: #f24949;
+}
+.read-bt:hover{
+    color: #f58282;
 }
